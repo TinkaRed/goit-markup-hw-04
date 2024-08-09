@@ -292,6 +292,9 @@ img {
 .our-team-list {
     display: flex;
     gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1128px;
 }
 
 .our-team-cards-item {
@@ -357,6 +360,9 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1128px;
 }
 
 .our-portfolio-cards {
