@@ -248,17 +248,20 @@ img {
     height: 112px;
     background-color: #f4f4fd;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
 }
 
 .icon-item {
-    display: flex;
     margin-top: 24px;
-    justify-content: center;
 }
 
 .advantages-list {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     gap: 24px;
+    width: 1128px;
 }
 
 .advantages-list-item {
