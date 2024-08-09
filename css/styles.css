@@ -279,6 +279,31 @@ img {
     color: #434455;
 }
 
+/* social media our team links-icons */
+
+.social-media-section-our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link-item-our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+    margin-top: 8px;
+}
+
+.social-link-item-our-team:hover,
+.social-link-item-our-team:focus {
+    background-color: #404BBF;
+}
+
 /* our portfolio section styles */
 
 .our-portfolio {
@@ -335,6 +360,49 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+}
+
+/* social media footer text-links-icons */
+
+.social-media-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.social-media-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.social-media-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social-link-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.svg {
+    fill: #4D5AE5;
+}
+
+.social-link-item:hover,
+.social-link-item:focus {
+    background-color: #31D0AA;
 }
 
 /* hide the advantages h2 title */
